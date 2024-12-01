@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPasienActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_register"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_register" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_lengkapi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="295dp"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Lengkapi data diri Anda"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="@font/inter"
+            android:hint="Nama lengkap"
+            android:paddingStart="18dp"
+            android:inputType="textPersonName"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="@font/inter"
+            android:hint="Jenis kelamin"
+            android:paddingStart="18dp"
+            android:inputType="textAutoComplete"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="@font/inter"
+            android:hint="Tanggal lahir"
+            android:paddingStart="18dp"
+            android:inputType="datetime"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="@font/inter"
+            android:hint="Kota domisili"
+            android:paddingStart="18dp"
+            android:inputType="text"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="@font/inter"
+            android:hint="Alamat email"
+            android:paddingStart="18dp"
+            android:inputType="textEmailAddress"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/rounded_input2"
+            android:fontFamily="@font/inter"
+            android:hint="Kata sandi"
+            android:paddingStart="18dp"
+            android:inputType="textPassword"
+            android:textSize="12sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_daftar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="660dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="755dp"
+            android:layout_marginStart="111dp"
+            android:fontFamily="@font/inter"
+            android:text="Sudah punya akun?"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="246dp"
+            android:layout_marginTop="755dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Masuk"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+</ScrollView>

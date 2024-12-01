@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ImageView
+        android:id="@+id/bgheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_header"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageView
+        android:id="@+id/logodokter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo_dokter"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="25dp"
+        android:text="Selamat Datang,"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bgpersen3"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="401dp"
+        android:elevation="5dp"
+        android:src="@drawable/plus"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/text_usia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="400dp"
+        android:elevation="5dp"
+        android:text="Usia Terbanyak"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hasil_usia"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="425dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/persen_usia"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="400dp"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/bgpersen"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="482dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="505dp"
+        android:elevation="5dp"
+        android:src="@drawable/gender"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/text_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="505dp"
+        android:elevation="5dp"
+        android:text="Jenis Kelamin Terbanyak"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hasil_gender"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="530dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/persen_gender"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="500dp"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/bgpersen2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="588dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageView
+        android:id="@+id/centang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="610dp"
+        android:elevation="4dp"
+        android:src="@drawable/centang"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/text_seluruh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="605dp"
+        android:elevation="5dp"
+        android:text="Keseluruhan"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hasil_seluruh"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="630dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/persen_seluruh"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="605dp"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>

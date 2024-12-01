@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="">
+
+        <!-- Logo -->
+
+        <!-- Judul Aplikasi -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/appTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="KneeCheck"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Form Login -->
+        <LinearLayout
+            android:id="@+id/background"
+            android:layout_width="344dp"
+            android:layout_height="343dp"
+            android:background="@drawable/rounded_background"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Login ke Akun Anda"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="18dp"
+                android:background="@drawable/rounded_input"
+                android:hint="Alamat email"
+                android:textSize="15sp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginBottom="16dp"
+                android:paddingStart="18dp"
+                android:background="@drawable/rounded_input"
+                android:hint="Kata sandi"
+                android:textSize="15sp"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#D32F2F"
+                app:cornerRadius="10dp"
+                android:text="Masuk"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    <!-- Daftar -->
+
+        <Button
+            android:id="@+id/daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="230dp"
+            android:backgroundTint="#F5F5F5"
+            android:text="Daftar"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/registerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_paddingStart="10dp"
+            android:text="Belum punya akun?"
+            android:layout_marginStart="80dp"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+    </ScrollView>
